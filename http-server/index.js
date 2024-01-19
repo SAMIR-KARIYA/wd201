@@ -15,7 +15,7 @@ fs.readFile("home.html", (err, home) => {
     }
     projectContent = project;
   });
-  fs.readFile("Registration.html", (err, reg) => {
+  fs.readFile("registration.html", (err, reg) => {
     if (err) {
       throw err;
     }
